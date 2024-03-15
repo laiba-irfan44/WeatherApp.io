@@ -1,0 +1,55 @@
+body{
+  background-image: url('images/weather5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.head{
+    margin-top: 2rem;
+    text-align: center;
+}
+.head>h2{
+    color: aliceblue;
+    font-size: 70px;
+    font-style: italic;
+}
+form{
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+input{
+    border: 1px solid black;
+    /* background: linear-gradient(#6fd6f688, #222829); */
+    border-radius: 50px;
+    padding: 10px;
+    width: 50%;
+    margin-right: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px rgba(227, 247, 239, 0.928)
+}
+input:focus {
+    color: #e7f5f8;
+    box-shadow: 0 5px 20px rgba(123, 219, 236, 0.632);
+    background: linear-gradient(#6fd6f688, #222829);
+    animation: glow 0.8s ease;
+  }
+button{
+    background-color: rgb(107, 171, 192);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+button:hover {
+    color: #eef2f2;
+    border: 1px solid #6692cc;
+    box-shadow: 0 0 5px rgba(226, 235, 238, 0.88);
+}
+p{
+    color: white;
+}
